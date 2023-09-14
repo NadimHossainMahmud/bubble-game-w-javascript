@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(73, 131, 78);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 90%;
+    background-color: aliceblue;
+    border-radius:10px ;
+}
+
+#pTop{
+    padding: 0px 30%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 78, 49);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    color: rgb(46, 78, 49);
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height:calc(100% - 100px) ;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(63, 107, 68);
+    color: white;
+    border-radius: 50%;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(32, 54, 34);
+} 
